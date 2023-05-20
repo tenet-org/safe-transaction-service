@@ -146,3 +146,6 @@ class CoingeckoClient(BaseHTTPClient):
 
     def get_metis_usd_price(self) -> float:
         return self.get_price("metis-token")
+    
+    def get_tenet_usd_price(self) -> float:
+        return self.get_price("tenet")
